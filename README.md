@@ -1,3 +1,11 @@
+EQUIPO:
+* Agis Mogollan Kate Michelle
+* De Santiago Castillo Evelyn
+* Alvarez Rivera Angel
+* Hernández Zavala Gabriel
+* López Gutiérrez Nili Estefanía
+
+
 MÉTODO DE ELIMINACIÓN GAUSSSIANA
 
 El método de eliminación de Gauss-Jordan se refiere a una estrategia utilizada para obtener la forma escalonada por filas de una matriz. 
