@@ -1,4 +1,5 @@
 ELIMINACIÓN GAUSSSIANA
+
 El método de eliminación de Gauss-Jordan se refiere a una estrategia utilizada para obtener la forma escalonada por filas de una matriz. 
 El objetivo es escribir la matriz A A con el número 1 como entrada en la diagonal principal y con todos los ceros debajo.
 
@@ -19,6 +20,7 @@ Algoritmo
 3. Las soluciones encontradas representan las incógnitas del sistema de ecuaciones lineales original.
 
 MÉTODO DE GAUSS-JORDAN
+
 El método de Gauss-Jordan utiliza operaciones con matrices para resolver sistemas de ecuaciones de n numero de variables. Para aplicarlo solo hay que recordar que cada operación que se realice se aplicara a toda la fila o a toda la columna en su caso. Su objetivo es tratar de convertir la parte de la matriz donde están los coeficientes de las variables en una matriz identidad. Esto se logra mediante simples operaciones de suma, resta y multiplicación. 
 
 Algoritmo
