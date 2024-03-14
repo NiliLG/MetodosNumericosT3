@@ -1,4 +1,4 @@
-ELIMINACIÓN GAUSSSIANA
+MÉTODO DE ELIMINACIÓN GAUSSSIANA
 
 El método de eliminación de Gauss-Jordan se refiere a una estrategia utilizada para obtener la forma escalonada por filas de una matriz. 
 El objetivo es escribir la matriz A A con el número 1 como entrada en la diagonal principal y con todos los ceros debajo.
@@ -39,6 +39,25 @@ Algoritmo
     Para cada fila j desde 1 hasta n, si j no es igual a i:
       Resta fila_i * elemento_en_posicion(j, i) de la fila j, para hacer cero todos los elementos por encima del pivote en la columna i.
 3. Las soluciones se encuentran en la última columna de la matriz reducida por filas.
+
+MÉTODO DE GAUSS-SEIDEL
+
+El método de eliminación para resolver ecuaciones simultáneas suministra soluciones suficientemente precisas hasta para 15 o 20 ecuaciones. El número exacto depende de las ecuaciones de que se trate, del número de dígitos que se conservan en el resultado de las operaciones aritméticas, y del procedimiento de redondeo. Utilizando ecuaciones de error, el número de ecuaciones que se pueden manejar se puede incrementar considerablemente a más de 15 o 20, pero este método también es impráctico cuando se presentan, por ejemplo, cientos de ecuaciones que se deben resolver simultáneamente. El método de inversión de matrices tiene limitaciones similares cuando se trabaja con números muy grandes de ecuaciones simultáneas.
+
+Algoritmo
+
+1. Inicialización:
+Dado un sistema de ecuaciones lineales Ax = b, descompón la matriz A en una suma de una matriz diagonal D, una matriz triangular inferior estricta L, y una matriz triangular superior estricta U, es decir, A = D + L + U.
+Inicializa un vector de solución inicial x^(0) (por ejemplo, un vector de ceros).
+2. Iteración:
+Para cada iteración k = 1, 2, 3, ..., calcula el siguiente vector de solución x^(k) utilizando la siguiente fórmula:
+x^(k)i = (1 / a(ii)) * (b_i - Σ_(j=1)^(i-1) a_(ij) * x^(k)j - Σ(j=i+1)^(n) a_(ij) * x^(k-1)_j)
+Utiliza los nuevos valores de las incógnitas x^(k) para la próxima iteración.
+3. Criterio de parada:
+Selecciona un criterio de parada, por ejemplo, una tolerancia ε.
+Si la diferencia entre dos iteraciones consecutivas ||x^(k) - x^(k-1)|| < ε, detén el proceso y devuelve x^(k) como solución aproximada.
+4. Resultados:
+La solución aproximada x^(k) es la solución del sistema de ecuaciones lineales.
 
 MÉTODO DE JACOBI
 
