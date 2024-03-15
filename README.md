@@ -26,6 +26,8 @@ Algoritmo
     Divide el término independiente por el coeficiente del término de la incógnita actual, para encontrar su solución.
 3. Las soluciones encontradas representan las incógnitas del sistema de ecuaciones lineales original.
 
+[Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/EliminacionGaussiana)
+
 MÉTODO DE GAUSS-JORDAN
 
 El método de Gauss-Jordan utiliza operaciones con matrices para resolver sistemas de ecuaciones de n numero de variables. Para aplicarlo solo hay que recordar que cada operación que se realice se aplicara a toda la fila o a toda la columna en su caso. Su objetivo es tratar de convertir la parte de la matriz donde están los coeficientes de las variables en una matriz identidad. Esto se logra mediante simples operaciones de suma, resta y multiplicación. 
@@ -47,6 +49,8 @@ Algoritmo
       Resta fila_i * elemento_en_posicion(j, i) de la fila j, para hacer cero todos los elementos por encima del pivote en la columna i.
 3. Las soluciones se encuentran en la última columna de la matriz reducida por filas.
 
+[Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/GaussJordan)
+
 MÉTODO DE GAUSS-SEIDEL
 
 El método de eliminación para resolver ecuaciones simultáneas suministra soluciones suficientemente precisas hasta para 15 o 20 ecuaciones. El número exacto depende de las ecuaciones de que se trate, del número de dígitos que se conservan en el resultado de las operaciones aritméticas, y del procedimiento de redondeo. Utilizando ecuaciones de error, el número de ecuaciones que se pueden manejar se puede incrementar considerablemente a más de 15 o 20, pero este método también es impráctico cuando se presentan, por ejemplo, cientos de ecuaciones que se deben resolver simultáneamente. El método de inversión de matrices tiene limitaciones similares cuando se trabaja con números muy grandes de ecuaciones simultáneas.
@@ -66,6 +70,8 @@ Si la diferencia entre dos iteraciones consecutivas ||x^(k) - x^(k-1)|| < ε, de
 4. Resultados:
 La solución aproximada x^(k) es la solución del sistema de ecuaciones lineales.
 
+[Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/Gauss-Seidel)
+
 MÉTODO DE JACOBI
 
 Un método iterativo con el cual se resuelve el sistema lineal Ax = b comienza con una aproximación inicial x^(0)a la solución x y genera una sucesión de vectores x^(k) que converge a x. Los métodos iterativos traen consigo un proceso que convierte el sistema Ax = b en otro equivalente de la forma x = Tx + c para alguna matriz fija T y un vector c.
@@ -84,3 +90,5 @@ Algoritmo
   Si la diferencia entre dos iteraciones consecutivas ||x^(k) - x^(k-1)|| < ε, detén el proceso y devuelve x^(k) como solución aproximada.
 4. Resultados:
   La solución aproximada x^(k) es la solución del sistema de ecuaciones lineales.
+
+[Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/Jacobi)
