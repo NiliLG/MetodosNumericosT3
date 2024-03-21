@@ -5,7 +5,7 @@ EQUIPO:
 * Hernández Zavala Gabriel
 * López Gutiérrez Nili Estefanía
 
-#Índice
+# Índice
 * [Método de eliminación gaussiana](#MÉTODO_DE_ELIMINACIÓN_GAUSSSIANA)
 * [Método de gauss jordan](#MÉTODO_DE_GAUSS-JORDAN)
 * [Medodo de gauss-seidel](#MÉTODO_DE_GAUSS-SEIDEL)
