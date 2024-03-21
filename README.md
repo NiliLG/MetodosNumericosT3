@@ -5,7 +5,7 @@ EQUIPO:
 * Hernández Zavala Gabriel
 * López Gutiérrez Nili Estefanía
 
-MÉTODO DE ELIMINACIÓN GAUSSSIANA
+# MÉTODO DE ELIMINACIÓN GAUSSSIANA
 
 El método de eliminación de Gauss-Jordan se refiere a una estrategia utilizada para obtener la forma escalonada por filas de una matriz. 
 El objetivo es escribir la matriz A A con el número 1 como entrada en la diagonal principal y con todos los ceros debajo.
@@ -28,7 +28,7 @@ Algoritmo
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/EliminacionGaussiana)
 
-MÉTODO DE GAUSS-JORDAN
+# MÉTODO DE GAUSS-JORDAN
 
 El método de Gauss-Jordan utiliza operaciones con matrices para resolver sistemas de ecuaciones de n numero de variables. Para aplicarlo solo hay que recordar que cada operación que se realice se aplicara a toda la fila o a toda la columna en su caso. Su objetivo es tratar de convertir la parte de la matriz donde están los coeficientes de las variables en una matriz identidad. Esto se logra mediante simples operaciones de suma, resta y multiplicación. 
 
@@ -51,7 +51,7 @@ Algoritmo
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/GaussJordan)
 
-MÉTODO DE GAUSS-SEIDEL
+# MÉTODO DE GAUSS-SEIDEL
 
 El método de eliminación para resolver ecuaciones simultáneas suministra soluciones suficientemente precisas hasta para 15 o 20 ecuaciones. El número exacto depende de las ecuaciones de que se trate, del número de dígitos que se conservan en el resultado de las operaciones aritméticas, y del procedimiento de redondeo. Utilizando ecuaciones de error, el número de ecuaciones que se pueden manejar se puede incrementar considerablemente a más de 15 o 20, pero este método también es impráctico cuando se presentan, por ejemplo, cientos de ecuaciones que se deben resolver simultáneamente. El método de inversión de matrices tiene limitaciones similares cuando se trabaja con números muy grandes de ecuaciones simultáneas.
 
@@ -72,7 +72,7 @@ La solución aproximada x^(k) es la solución del sistema de ecuaciones lineales
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/Gauss-Seidel)
 
-MÉTODO DE JACOBI
+# MÉTODO DE JACOBI
 
 Un método iterativo con el cual se resuelve el sistema lineal Ax = b comienza con una aproximación inicial x^(0)a la solución x y genera una sucesión de vectores x^(k) que converge a x. Los métodos iterativos traen consigo un proceso que convierte el sistema Ax = b en otro equivalente de la forma x = Tx + c para alguna matriz fija T y un vector c.
 
