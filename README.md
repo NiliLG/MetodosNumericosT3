@@ -8,6 +8,8 @@ EQUIPO:
 #Índice
 * [Método de eliminación gaussiana](#MÉTODO_DE_ELIMINACIÓN_GAUSSSIANA)
 * [Método de gauss jordan](#MÉTODO_DE_GAUSS-JORDAN)
+* [Medodo de gauss-seidel](#MÉTODO_DE_GAUSS-SEIDEL)
+* [Medodo de jacoobi](#MÉTODO_DE_JACOBI)
 
 # MÉTODO_DE_ELIMINACIÓN_GAUSSSIANA
 
@@ -55,7 +57,7 @@ Algoritmo
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/GaussJordan)
 
-# MÉTODO DE GAUSS-SEIDEL
+# MÉTODO_DE_GAUSS-SEIDEL
 
 El método de eliminación para resolver ecuaciones simultáneas suministra soluciones suficientemente precisas hasta para 15 o 20 ecuaciones. El número exacto depende de las ecuaciones de que se trate, del número de dígitos que se conservan en el resultado de las operaciones aritméticas, y del procedimiento de redondeo. Utilizando ecuaciones de error, el número de ecuaciones que se pueden manejar se puede incrementar considerablemente a más de 15 o 20, pero este método también es impráctico cuando se presentan, por ejemplo, cientos de ecuaciones que se deben resolver simultáneamente. El método de inversión de matrices tiene limitaciones similares cuando se trabaja con números muy grandes de ecuaciones simultáneas.
 
@@ -76,7 +78,7 @@ La solución aproximada x^(k) es la solución del sistema de ecuaciones lineales
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/Gauss-Seidel)
 
-# MÉTODO DE JACOBI
+# MÉTODO_DE_JACOBI
 
 Un método iterativo con el cual se resuelve el sistema lineal Ax = b comienza con una aproximación inicial x^(0)a la solución x y genera una sucesión de vectores x^(k) que converge a x. Los métodos iterativos traen consigo un proceso que convierte el sistema Ax = b en otro equivalente de la forma x = Tx + c para alguna matriz fija T y un vector c.
 
