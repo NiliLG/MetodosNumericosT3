@@ -46,3 +46,9 @@ public class GaussJordan {
         return soluciones;
     }
 }
+
+
+//    Soluciones ---------------------------------------------------------------
+//    X1 = 2
+//    X2 = 3
+//    X3 = -1
