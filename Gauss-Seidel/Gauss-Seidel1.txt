@@ -1,4 +1,4 @@
-M蒚ODO GAUSS-SEIDEL
+M脡TODO GAUSS-SEIDEL
 
 package Ejercicios;
 
@@ -17,12 +17,12 @@ public class GaussSeidel {
             soluciones[i] = 0.0;
         }
 
-        // Bucle principal del m閠odo de Gauss-Seidel
+        // Bucle principal del m茅todo de Gauss-Seidel
         do {
-            // Copiar las soluciones de la iteraci髇 anterior
+            // Copiar las soluciones de la iteraci贸n anterior
             System.arraycopy(soluciones, 0, solucionesAnterior, 0, n);
 
-            // Actualizar cada soluci髇
+            // Actualizar cada soluci贸n
             for (int i = 0; i < n; i++) {
                 double suma = 0.0;
                 for (int j = 0; j < n; j++) {
@@ -39,7 +39,7 @@ public class GaussSeidel {
         return soluciones;
     }
 
-    // Funci髇 para verificar si las soluciones han convergido
+    // Funci贸n para verificar si las soluciones han convergido
     public static boolean converge(double[] soluciones, double[] solucionesAnterior, double tol) {
         for (int i = 0; i < soluciones.length; i++) {
             if (Math.abs(soluciones[i] - solucionesAnterior[i]) > tol) {
@@ -57,17 +57,17 @@ public class GaussSeidel {
                 {3, 4, -10}
         };
 
-        // Definir el vector de t閞minos independientes
+        // Definir el vector de t茅rminos independientes
         double[] terminosIndependientes = {-2, 3, 6};
 
-        // Especificar la tolerancia y el n鷐ero m醲imo de iteraciones
+        // Especificar la tolerancia y el n煤mero m谩ximo de iteraciones
         double tol = 0.0001;
         int iterMax = 100;
 
         // Resolver el sistema de ecuaciones lineales
         double[] soluciones = gaussSeidel(coeficientes, terminosIndependientes, tol, iterMax);
 
-        // Impreci髇 de las soluciones
+        // Impreci贸n de las soluciones
         System.out.println("Soluciones:");
         for (int i = 0; i < soluciones.length; i++) {
             System.out.println("x" + (i + 1) + ": " + soluciones[i]);
@@ -75,3 +75,7 @@ public class GaussSeidel {
     }
 }
 
+// Soluciones:
+// x1: -0.4850075446285481
+// x2: 1.012266444277653
+// x3: -0.34059568567750326
