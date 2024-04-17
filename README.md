@@ -60,6 +60,8 @@ Algoritmo
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/EliminacionGaussiana)
 
+[Implementación](https://github.com/NiliLG/MetodosNumericosT3/blob/main/EliminacionGaussiana/EliminacionGaussiana1.txt)
+
 # MÉTODO_DE_GAUSS-SEIDEL
 
 El método de eliminación para resolver ecuaciones simultáneas suministra soluciones suficientemente precisas hasta para 15 o 20 ecuaciones. El número exacto depende de las ecuaciones de que se trate, del número de dígitos que se conservan en el resultado de las operaciones aritméticas, y del procedimiento de redondeo. Utilizando ecuaciones de error, el número de ecuaciones que se pueden manejar se puede incrementar considerablemente a más de 15 o 20, pero este método también es impráctico cuando se presentan, por ejemplo, cientos de ecuaciones que se deben resolver simultáneamente. El método de inversión de matrices tiene limitaciones similares cuando se trabaja con números muy grandes de ecuaciones simultáneas.
@@ -80,6 +82,7 @@ Si la diferencia entre dos iteraciones consecutivas ||x^(k) - x^(k-1)|| < ε, de
 La solución aproximada x^(k) es la solución del sistema de ecuaciones lineales.
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/Gauss-Seidel)
+[Implementación](https://github.com/NiliLG/MetodosNumericosT3/blob/main/Gauss-Seidel/Gauss-Seidel1.txt)
 
 # MÉTODO_DE_JACOBI
 
@@ -101,3 +104,5 @@ Algoritmo
   La solución aproximada x^(k) es la solución del sistema de ecuaciones lineales.
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/Jacobi)
+
+[Implementación](https://github.com/NiliLG/MetodosNumericosT3/blob/main/Jacobi/Jacobi3.java)
