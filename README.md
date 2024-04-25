@@ -82,6 +82,7 @@ Si la diferencia entre dos iteraciones consecutivas ||x^(k) - x^(k-1)|| < ε, de
 La solución aproximada x^(k) es la solución del sistema de ecuaciones lineales.
 
 [Ejemplos](https://github.com/NiliLG/MetodosNumericosT3/tree/main/Gauss-Seidel)
+
 [Implementación](https://github.com/NiliLG/MetodosNumericosT3/blob/main/Gauss-Seidel/Gauss-Seidel1.txt)
 
 # MÉTODO_DE_JACOBI
